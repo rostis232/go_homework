@@ -1,5 +1,3 @@
-{{ define "create" }}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +6,7 @@
 </head>
 <body>
 <h1>Форма додавання запису в БД</h1><br>
-<form action="/save_event/" method="post">
+<form action="/v1/events/save_event" method="post">
     <input type="text" name="name" id="name" placeholder="Введіть назву заходу"><br>
     <button>Enter</button>
 </form>
