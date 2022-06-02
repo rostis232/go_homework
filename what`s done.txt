@@ -1,0 +1,7 @@
+1. Створено pkg/dbsettings/dbsettings.go для налаштування підключення до бази даних
+2. Проінстальовано go get -u github.com/upper/db/v4/adapter/postgresql
+3. До файлу dbsettings додано налаштування бд.
+4. У файлі event.go до структури Event додаємо ключі для БД.
+5. Створено відповідну таблицю у БД
+6. Змінено функцію FindAll()
+7. Удалив const EventsCount int64 = 10
