@@ -1,0 +1,16 @@
+{{ define "create" }}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Додавання нового запису у БД</title>
+</head>
+<body>
+<h1>Форма додавання запису в БД</h1><br>
+<form action="/save_event/" method="post">
+    <input type="text" name="name" id="name" placeholder="Введіть назву заходу"><br>
+    <button>Enter</button>
+</form>
+</body>
+</html>
